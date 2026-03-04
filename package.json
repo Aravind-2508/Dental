@@ -1,0 +1,13 @@
+{
+  "name": "elite-dental",
+  "version": "1.0.0",
+  "description": "Premium Dental Clinic Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y http-server -p 3000",
+    "dev": "npx -y http-server -p 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
