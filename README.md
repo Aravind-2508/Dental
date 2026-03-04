@@ -13,31 +13,31 @@ A high-end, "Apple-style" dental clinic website designed for premium healthcare 
 -   **⚡ Performance First**: Fast-loading assets, clean semantic HTML5, and responsive layouts built with CSS Grid & Flexbox.
 -   **📱 Mobile-First**: Completely responsive design tailored for the modern premium patient segments.
 
-## 🚀 Getting Started
+## 🚀 Deployment & Running
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (for the local development server)
+### 🌍 One-Click Deployment
+This project is pre-configured for **Vercel**, **Netlify**, and **GitHub Pages**. Simply connect your GitHub repository to any of these platforms.
 
-### Installation & Running
-1.  **Clone the repository:**
+### 💻 Local Development (Vite)
+We use **Vite** for a lightning-fast development experience.
+
+1.  **Install Dependencies:**
     ```bash
-    git clone https://github.com/Aravind-2508/Dental.git
-    cd Dental
+    npm install
     ```
 
-2.  **Run with NPM (Recommended):**
+2.  **Start Dev Server:**
     ```bash
     npm run dev
     ```
-    This will start a local server at [http://127.0.0.1:3000](http://127.0.0.1:3000).
+    The site will be available at [http://localhost:5173](http://localhost:5173).
 
-3.  **Run with Command Line:**
+3.  **Build for Production:**
     ```bash
-    npx -y http-server -p 3000
+    npm run build
     ```
+    This generates an optimized `dist/` folder ready for any static hosting provider.
 
-4.  **Open in VS Code:**
-    Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension and click **"Go Live"**.
 
 ## 📂 Project Architecture
 

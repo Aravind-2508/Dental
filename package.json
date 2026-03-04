@@ -1,13 +1,14 @@
 {
-  "name": "elite-dental",
+  "name": "elite-dental-frontend",
   "version": "1.0.0",
-  "description": "Premium Dental Clinic Website",
-  "main": "index.html",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "npx -y http-server -p 3000",
-    "dev": "npx -y http-server -p 3000"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
 }
