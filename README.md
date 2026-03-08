@@ -9,7 +9,7 @@ This repository contains the Elite Dental Clinic project, structured for scalabi
 
 ## � Quick Start
 
-To run the frontend: 
+To run the frontend:   
 
 ```bash
 cd frontend
